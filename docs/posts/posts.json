@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2021-02-24-some-stuff-with-models/",
+    "title": "Some stuff with models",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Daniel Anderson",
+        "url": "https:www.datalorax.com"
+      }
+    ],
+    "date": "2021-02-24",
+    "categories": [],
+    "contents": "\nLook at this cool plot down below. It’s got different font than the default!\n\n\nlibrary(tidyverse)\nggplot(mtcars, aes(disp, mpg)) +\n  geom_point() +\n  geom_smooth() +\n  labs(title = \"A boring plot\") +\n  theme(text = element_text(family = \"Roboto\"))\n\n\n\n\n\n\n\n",
+    "preview": "posts/2021-02-24-some-stuff-with-models/some-stuff-with-models_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2021-02-24T10:35:23-08:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to The amazing awesome world of awesomeness",
+    "description": "Welcome to our new blog, The amazing awesome world of awesomeness. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Daniel Anderson",
+        "url": "https:www.datalorax.com"
+      }
+    ],
+    "date": "2021-02-24",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-24T10:30:32-08:00",
+    "input_file": {}
+  }
+]
