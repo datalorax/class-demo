@@ -10,11 +10,16 @@
       }
     ],
     "date": "2021-02-24",
-    "categories": [],
+    "categories": [
+      "visualization",
+      "modeling"
+    ],
     "contents": "\nLook at this cool plot down below. It’s got different font than the default!\n\n\nlibrary(tidyverse)\nggplot(mtcars, aes(disp, mpg)) +\n  geom_point() +\n  geom_smooth() +\n  labs(title = \"A boring plot\") +\n  theme(text = element_text(family = \"Roboto\"))\n\n\n\n\n\n\n\n",
     "preview": "posts/2021-02-24-some-stuff-with-models/some-stuff-with-models_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2021-02-24T10:35:23-08:00",
-    "input_file": {}
+    "last_modified": "2021-02-24T11:04:14-08:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
   },
   {
     "path": "posts/welcome/",
@@ -27,10 +32,12 @@
       }
     ],
     "date": "2021-02-24",
-    "categories": [],
+    "categories": [
+      "visualization"
+    ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-02-24T10:30:32-08:00",
+    "last_modified": "2021-02-24T11:05:12-08:00",
     "input_file": {}
   }
 ]
